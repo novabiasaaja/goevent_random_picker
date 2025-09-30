@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Team Generator - Create Teams Effortlessly</title>
+    <meta name="description" content="A simple and fast online tool to randomly generate and divide a list of names into multiple teams. Perfect for games, projects, and group activities.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <div class="input-section">
+            <h1>Automatic Team Builder</h1>
+            <label for="nameList">List of Names (one name per line)</label>
+            <textarea id="nameList" placeholder="Example:&#10;John&#10;Jane&#10;Peter&#10;Emily&#10;Clarissa&#10;Michael&#10;Sophia&#10;David" rows="10"></textarea>
+            <label for="teamCount">Number of Teams</label>
+            <input type="number" id="teamCount" placeholder="Example: 3" min="2">
+            <button id="generateBtn">Generate Teams</button>
+            <p id="message" class="message"></p>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="result-section">
+            <h2>Team Division Results</h2>
+            <p class="example-text">This is an example output. Your results will appear here after clicking the button.</p>
+            <div id="resultContainer">
+                <div class="team-box">
+                    <h3>Team 1</h3>
+                    <ul>
+                        <li>Alice</li>
+                        <li>Bob</li>
+                    </ul>
+                </div>
+                <div class="team-box">
+                    <h3>Team 2</h3>
+                    <ul>
+                        <li>Charlie</li>
+                        <li>Diana</li>
+                    </ul>
+                </div>
+                <div class="team-box">
+                    <h3>Team 3</h3>
+                    <ul>
+                        <li>Edward</li>
+                        <li>Fiona</li>
+                    </ul>
+                </div>
+                <div class="team-box">
+                    <h3>Team 4</h3>
+                    <ul>
+                        <li>George</li>
+                        <li>Hannah</li>
+                    </ul>
+                </div>
+                <div class="team-box">
+                    <h3>Team 5</h3>
+                    <ul>
+                        <li>Ivy</li>
+                        <li>Jack</li>
+                    </ul>
+                </div>
+                <div class="team-box">
+                    <h3>Team 6</h3>
+                    <ul>
+                        <li>Kelly</li>
+                        <li>Liam</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-section">
+        <div class="container">
+            <h2>About This Website</h2>
+            <p>
+                Random Team Generator is your go-to, free online tool for effortlessly creating teams! Forget the hassle of manual division and dive straight into the fun. Whether you're a project manager, a sports coach, or a teacher, our tool is designed to provide fair and unbiased groups in an instant. It's a quick, professional, and reliable solution, accessible right from your browser. We've optimized this site with SEO in mind, making it easy to find on Google when you're searching for a free team builder, randomizer tool, or group divider. Enjoy a seamless experience and start generating your teams today!
+            </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
